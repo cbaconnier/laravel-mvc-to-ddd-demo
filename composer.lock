@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0777733e0a1c75f74f8c09223bbb966f",
+    "content-hash": "3f911dfbf27d611ea4e14fac2fe7ec4e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5548,6 +5548,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "cbaconnier/laravel-mvc-to-ddd",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cbaconnier/laravel-mvc-to-ddd.git",
+                "reference": "47f976951bf9963a2fc2c5e64a5bec32ca457b44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cbaconnier/laravel-mvc-to-ddd/zipball/47f976951bf9963a2fc2c5e64a5bec32ca457b44",
+                "reference": "47f976951bf9963a2fc2c5e64a5bec32ca457b44",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.0",
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cbaconnier\\LaravelMvcToDdd\\LaravelMvcToDddProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cbaconnier\\LaravelMvcToDdd\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clément Baconnier",
+                    "email": "clement.baconnier@gmail.com"
+                }
+            ],
+            "description": "Automatically change the default Laravel MVC architecture to DDD architecture",
+            "support": {
+                "issues": "https://github.com/cbaconnier/laravel-mvc-to-ddd/issues",
+                "source": "https://github.com/cbaconnier/laravel-mvc-to-ddd/tree/0.2.0"
+            },
+            "time": "2021-03-13T02:21:06+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.4.0",

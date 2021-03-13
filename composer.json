@@ -19,6 +19,7 @@
         "livewire/livewire": "^2.0"
     },
     "require-dev": {
+        "cbaconnier/laravel-mvc-to-ddd": "^0.2.0",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
@@ -38,7 +39,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
+            "App\\": "src/App",
+            "Domain\\": "src/Domain",
+            "Support\\": "src/Support",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
